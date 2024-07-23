@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "KievitPro";
+  src: url("fonts/KievitPro-Regular.woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KievitPro";
+  src: url("fonts/KievitPro-Bold.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KievitPro";
+  src: url("fonts/KievitPro-Light.woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "KievitPro";
+  src: url("fonts/KievitPro-Medium.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "KievitPro";
+}
+
+.Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  align-items: center;
+  overflow-x: hidden;
+
+  background: #f9f7f2;
+}

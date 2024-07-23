@@ -1,0 +1,120 @@
+.ReviewCard {
+  box-sizing: border-box;
+
+  min-width: 300px;
+  max-width: 300px;
+  height: 410px;
+
+  margin-right: 20px;
+  padding: 26px 9px 23px 19px;
+
+  overflow: hidden;
+
+  background-color: #f9f7f2;
+}
+
+.ReviewCard-User {
+  display: flex;
+
+  padding-bottom: 28px;
+}
+
+.User-Image {
+  width: 30px;
+  height: 30px;
+
+  margin-right: 10px;
+
+  border-radius: 50%;
+}
+
+.User-Name {
+  align-content: center;
+}
+
+.ReviewCard-Images {
+  position: relative;
+  padding-top: 8px;
+
+  height: 50px;
+  overflow: hidden;
+}
+
+.Images-Item {
+  width: 50px;
+  height: 50px;
+
+  padding: 0 5px 0 0;
+
+  object-fit: cover;
+}
+
+.Images-Cover {
+  display: flex;
+  position: absolute;
+
+  width: 50px;
+  height: 50px;
+
+  justify-content: center;
+  align-items: center;
+
+  left: 165px;
+
+  font-family: "Roboto";
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+
+  background: rgba(16, 16, 16, 0.4);
+}
+
+.ReviewCard-Title {
+  padding-bottom: 12px;
+
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.47px;
+  line-height: 17px;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.ReviewCard-Title span {
+  font-weight: 600;
+  color: #fc4f1e;
+}
+
+.ReviewCard-Text {
+  display: -webkit-inline-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+
+  height: 177px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.ReviewCard-Footer {
+  display: flex;
+
+  padding-top: 16px;
+
+  font-family: "Roboto";
+  font-size: 11px;
+  line-height: 25px;
+  color: #9d9d9d;
+}
+
+.Footer-Dot {
+  padding: 0 5px 0 11px;
+}
+
+.Footer-Image {
+  padding: 0 4px 0 28px;
+}

@@ -1,0 +1,58 @@
+.City {
+  display: flex;
+  width: 879px;
+  height: 440px;
+  margin: 110px 0 20px;
+
+  background-color: #ffffff;
+}
+
+.City-img {
+  width: 50%;
+}
+
+.City-body {
+  padding: 104px 37px 104px 29px;
+}
+
+.Body-title {
+  padding-bottom: 19px;
+
+  font-size: 29px;
+  font-weight: 900;
+  line-height: 34.8px;
+  letter-spacing: 0.87px;
+}
+
+.Body-text {
+  padding-bottom: 6px;
+  max-width: 363px;
+
+  font-size: 17px;
+  line-height: 25.09px;
+  font-weight: 100;
+}
+
+.Body-continue {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 25.09px;
+
+  color: #000000;
+
+  text-decoration: underline;
+  text-decoration-color: #ff4641;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+
+  transition: 0.3s;
+}
+
+.Body-continue:hover {
+  padding: 5px;
+  background-color: #ff4641;
+  border-radius: 2px;
+  color: #ffffff;
+
+  transition: 0.3s;
+}

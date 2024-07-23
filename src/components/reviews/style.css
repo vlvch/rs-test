@@ -1,0 +1,120 @@
+.Reviews {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+
+  width: 879px;
+  height: 606px;
+
+  padding: 35px 29px 33px 31px;
+  margin-bottom: 50px;
+
+  justify-content: space-between;
+
+  background-color: #ffffff;
+}
+
+.Reviews-Cover {
+  width: 29px;
+  height: 410px;
+
+  position: absolute;
+  right: 0;
+  top: 94px;
+  z-index: 3;
+
+  -webkit-box-shadow: -10px 0px 10px -7px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -10px 0px 10px -7px rgba(0, 0, 0, 0.1);
+  box-shadow: -10px 0px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.Reviews-Title {
+  font-weight: 900;
+  font-size: 29px;
+  letter-spacing: 0.87px;
+}
+
+.Reviews-Cards {
+  display: flex;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.Cards-Arrows {
+  display: flex;
+  position: absolute;
+
+  height: 410px;
+  width: 100%;
+
+  justify-content: space-between;
+
+  font-size: 20px;
+
+  color: rgba(0, 0, 0, 0);
+}
+
+.Arrows-Item {
+  display: flex;
+  z-index: 1;
+
+  height: 100%;
+  width: 30px;
+
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.3s;
+}
+
+.Arrows-Item:hover {
+  background: rgba(0, 0, 0, 0.2);
+
+  color: #ffffff;
+
+  transition: 0.3s;
+}
+
+.Reviews-Footer {
+  display: flex;
+
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.Footer-Button {
+  padding: 10px 23px 13px 24px;
+
+  border: 2px solid #ff4641;
+  border-radius: 2px;
+
+  background-color: #ffffff;
+
+  font-family: "KievitPro";
+  font-size: 15px;
+  font-weight: 600;
+  color: #212121;
+
+  transition: 0.3s;
+}
+
+.Footer-Button:hover {
+  cursor: pointer;
+
+  background-color: #ff4641;
+  color: #ffffff;
+
+  transition: 0.3s;
+}
+
+.Footer-Dots {
+  display: flex;
+
+  gap: 0 14px;
+}
+
+.Dots-Item {
+  cursor: pointer;
+}
